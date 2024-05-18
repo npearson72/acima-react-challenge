@@ -1,0 +1,1 @@
+export { inputFormatValidator } from './inputFormatValidator';

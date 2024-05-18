@@ -1,0 +1,26 @@
+.root {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+
+    th,
+    td {
+      padding-left: 5px;
+    }
+
+    th {
+      background: var(--mantine-color-gray-9);
+      color: white;
+    }
+
+    tr:nth-child(odd) {
+      background: var(--mantine-color-gray-2);
+    }
+  }
+}
